@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+    <title>ng-app Directive</title>
+    <script src="Scripts/angular.js"></script>
+</head>
+<body ng-app="myAngularApp">
+    <div ng-init="greet='Hello World!'; amount= 10000;rateOfInterest = 10.5; duration=10;  myArr = [100, 200]; person = { firstName:'Steve', lastName :'Jobs'}">
+        {{ (amount * rateOfInterest * duration)/100 }}<br />
+        {{myArr[1]}} <br />
+        {{person.firstName + " " + person.lastName}}
+    </div>
+    <script>
+        var app = angular.module('myAngularApp', []);
+
+        angular.element(document).ready(function () {
+            angular.bootstrap(document);
+        });
+    </script>
+</body>
+</html>

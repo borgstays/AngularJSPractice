@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NestedController.html" />
+    <Content Include="ngbind.html" />
+    <Content Include="ngcontroller.html" />
+    <Content Include="ngIfngReadonlyngDisabled.html" />
+    <Content Include="nginit.html" />
+    <Content Include="ngrepeat.html" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
