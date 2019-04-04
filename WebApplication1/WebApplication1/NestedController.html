@@ -20,9 +20,9 @@
             $scope.message1 = "This is parentController";
         });
 
-        ngApp.controller('childController', function ($scope) {
+        ngApp.controller('childController', ['$scope', function ($scope) {
             $scope.message2 = "This is childController";
-        });
+        }]);
     </script>
 </body>
 </html>
